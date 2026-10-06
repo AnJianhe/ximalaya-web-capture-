@@ -1,0 +1,35 @@
+# 账号会话、浏览器数据与本地配置
+.xm_profile/
+**/*profile*/
+.env
+.env.*
+!.env.example
+cookies*.json
+storage_state*.json
+
+# 下载、日志与中间文件
+downloads/
+work/
+*.log
+*.part
+*.m4a
+*.mp3
+*.aac
+*.flac
+*.mp4
+*.m4s
+*.wav
+
+# Python 与编辑器
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
